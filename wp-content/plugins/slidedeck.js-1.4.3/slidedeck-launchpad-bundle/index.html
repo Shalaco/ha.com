@@ -1,0 +1,278 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" lang="en-US">
+<head>
+<!--
+
+SlideDeck Skin Customization
+URL: http://www.slidedeck.com
+Created By: digital-telepathy
+Creator URL: www.dtelepathy.com
+
+Dear Developer,
+
+Please take a look at the included READ-ME-FIRST.txt file for a better understanding
+of the package as a whole.
+
+This is the standard HTML structure for a SlideDeck. We've provided a copy
+of SlideDeck LITE. For those of you who have happily upgraded to SlideDeck PRO,
+you may replace included SlideDeck LITE library with a copy of your SlideDeck PRO
+library. Make sure you make this change further down the document where indicated.
+This will allow you to design for vertical slide navigation and functionality.
+Vertical slides are additional slides that navigate up and down inside of a parent
+slide. They look pretty fancy. You'll also get the added control with the API, which
+will increase the control you have over SlideDeck with javascript.
+
+The following structure will be heavily commented for your convience.
+
+Happy Coding ;)
+
+Love,
+SlideDeck Staff
+
+-->
+
+<link rel="stylesheet" type="text/css" href="stylesheets/template.format.css" media="all" />
+
+<!-- Be sure to replace "CHANGEME" in the followings path to reflect your skin name.-->
+<!-- SlideDeck Best Practice: Include your skin file BEFORE loading the javascript. -->
+<link rel="stylesheet" type="text/css" href="stylesheets/CHANGEME.skin.css" media="all" />
+<!-- Styles for the skin that only load for Internet Explorer -->
+<!--[if lte IE 8]>
+<link rel="stylesheet" type="text/css" href="stylesheets/CHANGEME.skin.ie.css" media="screen,handheld" />
+<![endif]-->
+
+
+<!--
+It's javascript loading time:
+SlideDeck is built off of the amazing jQuery library (http://www.jQuery.com). We need to load
+this library first before we load the SlideDeck library. Fortunately, Google allows us to
+download the latest version from their repository. Thanks, Google!
+-->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+
+<!--
+Include the following script, Copyright 2011, Brandon Aaron (http://brandonaaron.net/) if
+you want to support mouse scrolling in your skin.
+-->
+<script type="text/javascript" src="../jquery-mousewheel/jquery.mousewheel.min.js"></script>
+
+
+<!-- 
+Wait for it... Wait for it... Okay, let's load the SlideDeck library. I know, we're excited
+about this part too.
+ -->
+<script type="text/javascript" src="../slidedeck.jquery.js"></script>
+
+
+<!-- 
+If you'd like more control over your SlideDeck, you can use some custom javascript to expand
+off of the built in API. Load your custom javascript file here:
+ -->
+<!-- <script type="text/javascript" src="javascripts/CHANGEME.skin.js"></script> -->
+
+<title>SlideDeck Classic Skin Template</title>
+</head>
+<body>
+	<div id="header">
+	<a href="http://www.slidedeck.com" id="header-logo">SlideDeck</a>
+	<h1 class="template-name">Classic Template</h1>
+	<h2 class="template-author">Template by <a href="http://www.digital-telepathy.com">digital-telepathy.com</a></h2>
+	</div><!-- #header -->
+	<div id="wrapper">
+	<h2 class="page-header">Preview Your SlideDeck</h2>
+		<!--
+		We're going to wrap this SlideDeck in a container, and give it a class
+		specific to the skin we are using. Append your own class for your skin,
+		ie: class="slidedeck-frame skin-classic awesomesauce-mega-skin"
+		-->
+		<div class="slidedeck-frame skin-CHANGEME">
+			<!--
+			We build SlideDecks off of the DL element structure
+			-->
+			<dl class="slidedeck">
+				<!--
+				The DT element is what we use for our spine titles
+				-->
+				<dt>Slide 1 Title</dt>
+				<!--
+				The DD element is what we use for the actual slide itself.
+				All of your awesome content belongs in this element
+				-->
+				<dd>
+					<h2>Slide 1</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque enim purus, viverra ut ultricies et, sollicitudin eu eros. Integer sit amet neque elementum libero varius pulvinar ac non velit.</p>
+					<img src="images/img_placeholder.png" alt="Image Here" width="370" height="239" />
+				</dd>
+				<dt>Slide 2 Title</dt>
+				<dd>
+				
+					<!--
+					If you're using SlideDeck Pro, you can uncomment the following
+					section and use vertical slides
+					-->
+					
+					<!--
+					<ul class="slidesVertical">
+						<li>
+							<h2>Slide 2.1</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque enim purus, viverra ut ultricies et, sollicitudin eu eros. Integer sit amet neque elementum libero varius pulvinar ac non velit.</p>
+							<img src="images/img_placeholder.png" alt="Image Here" width="370" height="239" />
+						</li>
+						<li>
+							<h2>Slide 2.2</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque enim purus, viverra ut ultricies et, sollicitudin eu eros. Integer sit amet neque elementum libero varius pulvinar ac non velit.</p>
+							<img src="images/img_placeholder.png" alt="Image Here" width="370" height="239" />
+						</li>
+						<li>
+							<h2>Slide 2.3</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque enim purus, viverra ut ultricies et, sollicitudin eu eros. Integer sit amet neque elementum libero varius pulvinar ac non velit.</p>
+							<img src="images/img_placeholder.png" alt="Image Here" width="370" height="239" />
+						</li>
+						<li>
+							<h2>Slide 2.4</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque enim purus, viverra ut ultricies et, sollicitudin eu eros. Integer sit amet neque elementum libero varius pulvinar ac non velit.</p>
+							<img src="images/img_placeholder.png" alt="Image Here" width="370" height="239" />
+						</li>
+					</ul>
+					
+                    <a href="#previous" class="vertical-prev-next previous">Previous</a>
+                    <a href="#next" class="vertical-prev-next next">Next</a>
+                     -->
+					
+					<!--
+					If you've uncommented out the section above to use vertcial slides,
+					you'll want to remove the remaining code that in this element
+					-->
+
+					<h2>Slide 2</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque enim purus, viverra ut ultricies et, sollicitudin eu eros. Integer sit amet neque elementum libero varius pulvinar ac non velit.</p>
+					<img src="images/img_placeholder.png" alt="Image Here" width="370" height="239" />
+
+					<!--
+					You should have removed the code all the way down to here if you
+					are going to use the vertical slides
+					-->
+					
+				</dd>
+				<dt>Slide 3 Title</dt>
+				<dd>
+					<h2>Slide 3</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque enim purus, viverra ut ultricies et, sollicitudin eu eros. Integer sit amet neque elementum libero varius pulvinar ac non velit.</p>
+					<img src="images/img_placeholder.png" alt="Image Here" width="370" height="239" />
+				</dd>
+				<dt>Slide 4 Title</dt>
+				<dd>
+					<h2>Slide 4</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque enim purus, viverra ut ultricies et, sollicitudin eu eros. Integer sit amet neque elementum libero varius pulvinar ac non velit.</p>
+					<img src="images/img_placeholder.png" alt="Image Here" width="370" height="239" />
+				</dd>
+				
+			</dl>
+			
+			<!--
+			We tend to initiate our SlideDeck's right after they are loaded on the page, this
+			allows for users to begin interacting with them while other elements are being loaded
+			on the page.
+			-->
+			
+			<script type="text/javascript">
+			
+			$('.skin-CHANGEME dl.slidedeck').slidedeck({
+				scroll: true,
+				keys: true
+			});
+			
+			</script>
+			<!--
+			Uncomment this area if you are using PRO with vertical slides, and remove the
+			above initiation of SlideDeck
+			-->
+			<!--
+			<script type="text/javascript">
+			 /** Initiate the SlideDeck */
+            $('.skin-CHANGEME dl.slidedeck').slidedeck({
+                scroll: 'stop'
+            }).
+            
+            /**
+             * Take advantage of the loaded() method of the SlideDeck library to move the vertical navigation
+             * for from the slide area to the spine area of that slide
+             */
+            loaded(function(){
+                // Add the square navigation to the spine as the dot navigation.
+                $('.skin-CHANGEME .slide .verticalSlideNav').each(function(){
+                    $(this).parents('dd.slide').prevAll('dt.spine:first').append(this);
+                });
+                
+                // Offset the dot navigation so it can be aligned to the bottom of the dt.
+                $('.skin-CHANGEME .spine .verticalSlideNav').each(function(){
+                    var liHeight = $(this).find('li').height();
+                    var ulOffset = ( 62 + ( ($(this).find('li').length - 1) * liHeight ) ) + 'px';
+					var ulHeight = ( ($(this).find('li').length - 1) * liHeight ) + 'px';
+                    $(this).css({
+                        left: ulOffset, 
+						height: ulHeight
+                    });
+                });
+                    
+                
+                
+            }).
+            
+            /** Enable vertical slides */
+            vertical({
+                before: function(deck){
+                    if(deck.current == 0){
+                        $(deck.navChildren.context).find('a.vertical-prev-next.previous').hide();
+                    } else {
+                        $(deck.navChildren.context).find('a.vertical-prev-next.previous')[0].style.display = "";
+                    }
+                    if(deck.current == (deck.slides.length - 1)){
+                        $(deck.navChildren.context).find('a.vertical-prev-next.next').hide();
+                    } else {
+                        $(deck.navChildren.context).find('a.vertical-prev-next.next')[0].style.display = "";
+                    }
+                },
+                complete: function(deck){
+                    if(deck.current == 0){
+                        $(deck.navChildren.context).find('a.vertical-prev-next.previous').hide();
+                    } else {
+                        $(deck.navChildren.context).find('a.vertical-prev-next.previous')[0].style.display = "";
+                    }
+                    if(deck.current == (deck.slides.length - 1)){
+                        $(deck.navChildren.context).find('a.vertical-prev-next.next').hide();
+                    } else {
+                        $(deck.navChildren.context).find('a.vertical-prev-next.next')[0].style.display = "";
+                    }
+                }
+            });
+            
+            $('.skin-CHANGEME a.vertical-prev-next').bind('click', function(event){
+                event.preventDefault();
+                switch(this.href.split('#')[1]){
+                    case "previous":
+                        $('.skin-CHANGEME .slidedeck').slidedeck().vertical().prev();
+                    break;
+                    case "next":
+                        $('.skin-CHANGEME .slidedeck').slidedeck().vertical().next();
+                    break;
+                }
+            });
+            
+            /** Hide the previous vertical slide button */
+            $('.skin-CHANGEME dl.slidedeck a.vertical-prev-next.previous').hide();
+
+            
+        </script>
+        -->
+        <noscript>
+            <p>Powered By <a href="http://www.slidedeck.com" title="Visit SlideDeck.com">SlideDeck jQuery Slider</a></p>
+        </noscript>
+		</div><!-- .slidedeck-frame .skin-classic -->
+		<div id="footer">
+			<a href="http://www.slidedeck.com" id="sd">SlideDeck</a> &amp; <a href="http://www.hellobar.com" id="hb">Hellobar</a> by <a href="http://www.dtelepathy.com" id="dt">digital-telepathy</a>
+		</div><!-- #footer -->
+	</div><!-- #wrapper -->
+</body>
+</html>

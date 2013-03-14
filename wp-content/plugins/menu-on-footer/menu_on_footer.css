@@ -1,0 +1,16 @@
+/* ----- menu on footer CSS  ---- */
+
+.content_footer_menu {background-color: #000;font-family: "Helvetica Neue",Arial,Helvetica,"Nimbus Sans L",sans-serif; margin:10px 0; color: #fff;}
+
+ul.footer_menu {background-color: #000;font-size:11px; padding: 20px; margin:0; width: 100%;}
+
+.footer_menu, .footer_menu ul { line-height:1; margin:0; padding:0; }
+.footer_menu li { float:left; padding:20px; margin: 0; list-style: disc; list-style-position: inside;}
+.footer_menu a{ color:#999; text-decoration: none; }
+.footer_menu a:hover { color:#fff;}
+.footer_menu ul {padding: 0;}
+.footer_menu ul { margin:0; padding: 20px 0 0 0;}
+.footer_menu li li{float: none;padding: 0 20px 20px 0;}
+.cleaner{clear: both;}
+.current_page_item a{color: #fff;}
+.footer_menu .current_page_item li a{color: #999;}
