@@ -1,0 +1,49 @@
+/* Targets the Unorderd List and removes default margins
+    and padding */
+
+ .wpquizli   { 
+   	
+   margins:0;  	
+   padding:0;       
+
+ }  
+
+ /* targets li tags, removes old bullets and replaces
+    the bullets with your own custom bullets */
+
+
+ .wpquizli  {
+
+   margin:0;
+   padding:0;
+   list-style:none;
+   background-image:url(images/blank.gif);
+   background-repeat:no-repeat;
+   background-position:left center;
+   padding-left:50px;
+
+ } 
+ 
+ .wpquizlicorrect  {
+
+   margin:0;
+   padding:0;
+   list-style:none;
+   background-image:url(images/tick.gif);
+   background-repeat:no-repeat;
+   background-position:left center;
+   padding-left:50px;
+
+ } 
+ 
+ .wpquizliwrong  {
+
+   margin:0;
+   padding:0;
+   list-style:none;
+   background-image:url(images/cross.gif);
+   background-repeat:no-repeat;
+   background-position:left center;
+   padding-left:50px;
+
+ } 

@@ -1,0 +1,382 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SSQuiz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-25 23:33+0600\n"
+"PO-Revision-Date: 2012-06-25 23:34+0600\n"
+"Last-Translator: Vadim Storozhev <ssvadim@mail.ru>\n"
+"Language-Team: SSVadim <ssvadim@mail.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin-side.php:12
+msgid "Quiz's Users"
+msgstr ""
+
+#: ../admin-side.php:15
+msgid "Clear this list"
+msgstr ""
+
+#: ../admin-side.php:20
+#: ../client-side.php:56
+msgid "Name"
+msgstr ""
+
+#: ../admin-side.php:21
+#: ../client-side.php:61
+msgid "E-Mail"
+msgstr ""
+
+#: ../admin-side.php:22
+#: ../admin-side.php:176
+msgid "Quiz"
+msgstr ""
+
+#: ../admin-side.php:23
+msgid "Answered"
+msgstr ""
+
+#: ../admin-side.php:24
+msgid "Correct"
+msgstr ""
+
+#: ../admin-side.php:25
+msgid "Time"
+msgstr ""
+
+#: ../admin-side.php:67
+msgid "ERROR:You should write answer"
+msgstr ""
+
+#: ../admin-side.php:71
+msgid "ERROR:You should write question"
+msgstr ""
+
+#: ../admin-side.php:75
+msgid "No Quiz selected"
+msgstr ""
+
+#: ../admin-side.php:84
+msgid "Error while replacing"
+msgstr ""
+
+#: ../admin-side.php:108
+msgid "ERROR:You should write title"
+msgstr ""
+
+#: ../admin-side.php:112
+msgid "ERROR:You should write description"
+msgstr ""
+
+#: ../admin-side.php:122
+msgid "SSQuiz Manager"
+msgstr ""
+
+#: ../admin-side.php:122
+#: ../admin-side.php:134
+msgid "Add Quiz"
+msgstr ""
+
+#: ../admin-side.php:127
+msgid "New Quiz's title"
+msgstr ""
+
+#: ../admin-side.php:130
+msgid "New Quiz's description"
+msgstr ""
+
+#: ../admin-side.php:140
+msgid "View Quiz"
+msgstr ""
+
+#: ../admin-side.php:142
+msgid "All"
+msgstr ""
+
+#: ../admin-side.php:177
+msgid "Number"
+msgstr ""
+
+#: ../admin-side.php:178
+#: ../admin-side.php:427
+#: ../client-side.php:187
+#: ../client-side.php:286
+#: ../client-side.php:373
+msgid "Question"
+msgstr ""
+
+#: ../admin-side.php:179
+msgid "Correct Answer"
+msgstr ""
+
+#: ../admin-side.php:180
+msgid "Answers"
+msgstr ""
+
+#: ../admin-side.php:203
+#: ../admin-side.php:205
+msgid "Total questions"
+msgstr ""
+
+#: ../admin-side.php:203
+#: ../admin-side.php:205
+#: ../admin-side.php:235
+msgid "delete"
+msgstr ""
+
+#: ../admin-side.php:203
+#: ../admin-side.php:234
+#: ../ssquiz.php:61
+msgid "edit"
+msgstr ""
+
+#: ../admin-side.php:203
+#: ../admin-side.php:205
+#: ../admin-side.php:516
+msgid "Add Question"
+msgstr ""
+
+#: ../admin-side.php:282
+msgid "Quiz Templates"
+msgstr ""
+
+#: ../admin-side.php:284
+msgid "Welcome Screen"
+msgstr ""
+
+#: ../admin-side.php:287
+#: ../admin-side.php:300
+#: ../admin-side.php:321
+#: ../admin-side.php:347
+msgid "Title of the quiz"
+msgstr ""
+
+#: ../admin-side.php:288
+#: ../admin-side.php:301
+#: ../admin-side.php:322
+#: ../admin-side.php:348
+msgid "Description of the quiz"
+msgstr ""
+
+#: ../admin-side.php:289
+msgid "Total number of questions"
+msgstr ""
+
+#: ../admin-side.php:292
+#: ../admin-side.php:307
+#: ../admin-side.php:354
+msgid "Submit"
+msgstr ""
+
+#: ../admin-side.php:297
+msgid "Result Screen"
+msgstr ""
+
+#: ../admin-side.php:302
+#: ../admin-side.php:323
+#: ../admin-side.php:349
+msgid "Number of answered"
+msgstr ""
+
+#: ../admin-side.php:303
+#: ../admin-side.php:324
+#: ../admin-side.php:350
+msgid "Number of correct answers"
+msgstr ""
+
+#: ../admin-side.php:304
+#: ../admin-side.php:325
+#: ../admin-side.php:351
+msgid "Percent of correct answered over total questions"
+msgstr ""
+
+#: ../admin-side.php:312
+msgid "Email Template to user"
+msgstr ""
+
+#: ../admin-side.php:313
+#: ../admin-side.php:335
+msgid "Subject"
+msgstr ""
+
+#: ../admin-side.php:318
+msgid "User will receive email?"
+msgstr ""
+
+#: ../admin-side.php:334
+msgid "Teacher's Template"
+msgstr ""
+
+#: ../admin-side.php:340
+msgid "Teacher's email"
+msgstr ""
+
+#: ../admin-side.php:342
+msgid "Teacher will receive email?"
+msgstr ""
+
+#: ../admin-side.php:345
+msgid "User's name"
+msgstr ""
+
+#: ../admin-side.php:346
+msgid "User's email"
+msgstr ""
+
+#: ../admin-side.php:431
+#: ../admin-side.php:520
+msgid "Insert Media"
+msgstr ""
+
+#: ../admin-side.php:444
+#: ../admin-side.php:523
+msgid "Answer is"
+msgstr ""
+
+#: ../admin-side.php:446
+#: ../admin-side.php:526
+msgid "correct"
+msgstr ""
+
+#: ../admin-side.php:450
+#: ../ssquiz.php:46
+msgid "Add answer"
+msgstr ""
+
+#: ../admin-side.php:460
+msgid "Save"
+msgstr ""
+
+#: ../admin-side.php:494
+msgid "Quiz's title"
+msgstr ""
+
+#: ../admin-side.php:498
+msgid "Quiz's description"
+msgstr ""
+
+#: ../admin-side.php:531
+msgid "Add question"
+msgstr ""
+
+#: ../admin-side.php:540
+msgid "If you have questions, suggestions or want to know about my upcoming projects, visit"
+msgstr ""
+
+#: ../client-side.php:10
+msgid "Quiz is not selected! Please, read readme.txt"
+msgstr ""
+
+#: ../client-side.php:45
+msgid "Time left"
+msgstr ""
+
+#: ../client-side.php:68
+msgid "Start"
+msgstr ""
+
+#: ../client-side.php:70
+msgid "Exit"
+msgstr ""
+
+#: ../client-side.php:191
+msgid "Correct answer"
+msgstr ""
+
+#: ../client-side.php:194
+msgid "Your answer"
+msgstr ""
+
+#: ../client-side.php:196
+msgid "You didn't answer to this question."
+msgstr ""
+
+#: ../client-side.php:199
+msgid "You were right!"
+msgstr ""
+
+#: ../client-side.php:219
+msgid "Back"
+msgstr ""
+
+#: ../client-side.php:275
+#: ../client-side.php:363
+msgid "There is no tests in quiz"
+msgstr ""
+
+#: ../client-side.php:313
+#: ../client-side.php:368
+msgid "Finish"
+msgstr ""
+
+#: ../client-side.php:337
+msgid "Next"
+msgstr ""
+
+#: ../ssquiz.php:47
+msgid "You must write at least one answer!"
+msgstr ""
+
+#: ../ssquiz.php:48
+msgid "You must choose correct answer!"
+msgstr ""
+
+#: ../ssquiz.php:49
+msgid "Question too short!"
+msgstr ""
+
+#: ../ssquiz.php:50
+msgid "You must write title!"
+msgstr ""
+
+#: ../ssquiz.php:51
+msgid "You must write description!"
+msgstr ""
+
+#: ../ssquiz.php:52
+msgid "Error"
+msgstr ""
+
+#: ../ssquiz.php:53
+msgid "Saved"
+msgstr ""
+
+#: ../ssquiz.php:54
+msgid "Please fill the forms"
+msgstr ""
+
+#: ../ssquiz.php:55
+msgid "Please input a correct email"
+msgstr ""
+
+#: ../ssquiz.php:56
+msgid "Select Quiz"
+msgstr ""
+
+#: ../ssquiz.php:57
+msgid "Do you really want to delete quiz and all its questions?"
+msgstr ""
+
+#: ../ssquiz.php:58
+msgid "Do you really want to delete all users from SSQuiz's database"
+msgstr ""
+
+#: ../ssquiz.php:59
+msgid "add question"
+msgstr ""
+
+#: ../ssquiz.php:60
+msgid "cancel"
+msgstr ""
+
+#: ../ssquiz.php:64
+msgid "Another answer is"
+msgstr ""
+

@@ -1,0 +1,150 @@
+/****************************************/
+/********** THIS FILE CONTAINS **********/
+/********** ALL THE STYLES FOR **********/
+/******** NON-SLIDEDECK ELEMENTS ********/
+/****************************************/
+/******* HTTP://WWW.SLIDEDECK.COM *******/
+/****************************************/
+
+body {
+	background: #F1F1F1 url('../images/bkg_header.png') 0 0 repeat-x;
+}
+
+#header {
+	width: 960px;
+	margin: 0 auto;
+	height: 142px;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#header-logo {
+	display: block;
+	width: 373px;
+	height: 0px;
+	padding-top: 96px;
+	position: relative;
+	overflow: hidden;
+	line-height: 150px;
+	background: url('../images/logo_slidedeck.png') 0 0 no-repeat;
+	top: 10px;
+	float: left;
+}
+
+h1.template-name {
+	position: relative;
+	overflow: hidden;
+	height: 0px;
+	padding-top: 38px;
+	width: 363px;
+	line-height: 100px;
+	background: url('../images/txt_classic-template.png') 0 0 no-repeat;
+	float: right;
+	margin: 0;
+	top: 40px;
+}
+
+h2.template-author {
+	color: #FFF;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	float: right;
+	clear: right;
+	margin: 0;
+	position: relative;
+	top: 40px;
+	right: 5px;
+}
+
+h2.template-author a {
+	color: #FFF;
+}
+
+h2.template-author a:hover {
+	color: #AC538A
+}
+
+h2.page-header {
+	background: url('../images/icon_preview.png') left center no-repeat;
+	padding-left: 27px;
+	font: bold 27px Arial, Helvetica, sans-serif;
+	color: #AC548A;
+	text-transform: uppercase;
+	margin: 15px 0 20px 10px;
+}
+
+#footer {
+	text-align: center;
+	position: absolute;
+	display: block;
+	width: 275px;
+	left: 50%;
+	bottom: 0px;
+	height: 25px;
+	font: 12px/17px Arial, Helvetica, sans-serif;
+	color: #999;
+	margin-left: -135px;
+}
+
+#footer a,
+#footer a:link,
+#footer a:visited {
+	color: #999;
+	text-decoration: none;
+	padding: 2px 0 0 20px;
+	height: 14px;
+	margin: 0 2px;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+}
+
+#footer a:first-child {
+	margin-left: 0px;
+}
+
+#footer a:hover {
+	background-position: 0 -18px !important;
+}
+
+#footer a#sd {
+	background: url('../images/icon_slidedeck-footer.png') left top no-repeat;
+}
+
+#footer a#hb {
+	background: url('../images/icon_hellobar-footer.png') left top no-repeat;
+}
+
+#footer a#dt {
+	padding: 0px;
+}
+
+/* Styling for the content of the slides -- not needed at all for the skin */
+
+.skin-CHANGEME dl.slidedeck h2 {
+	font: bold 24px Arial, Helvetica, sans-serif;
+	float: left;
+	margin: 0;
+	position: relative;
+	padding: 15px 0 0 0;
+}
+
+.skin-CHANGEME dl.slidedeck p {
+	font: bold 15px/22px Georgia, "Times New Roman", Times, serif;
+	width: 300px;
+	float: left;
+	clear: left;
+	margin: 0;
+	padding-top: 5px;
+}
+
+
+.skin-CHANGEME dl.slidedeck img {
+	float: right;
+	position: absolute;
+	right: 35px;
+	bottom: 26px;
+}

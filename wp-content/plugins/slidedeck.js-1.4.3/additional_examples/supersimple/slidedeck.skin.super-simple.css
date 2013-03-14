@@ -1,0 +1,380 @@
+/*
+Skin Name: Super Simple
+Skin URI: http://www.slidedeck.com/
+Description: A super simple styled skin that makes use of some PRO features
+Version: 1.0
+Author: digital-telepathy, Kevin O'Connor, David Nguyen, Jamie Hamel-Smith
+Author URI: http://www.dtelepathy.com/
+Tags: flexible, dark, black, grey
+*/
+
+/*
+ * The frame surrounding the SlideDeck.
+ * 
+ * Customize the width, height, padding and background to customize the area 
+ * surrounding your SlideDeck.
+ */
+.skin-super-simple {
+	background:#111;
+	color:#eee;
+	margin-bottom:20px;
+    position: relative;
+	padding: 0;
+}
+.skin-super-simple p,
+.skin-super-simple h1,
+.skin-super-simple h2,
+.skin-super-simple h3,
+.skin-super-simple h4,
+.skin-super-simple h5,
+.skin-super-simple h6,
+.skin-super-simple ol,
+.skin-super-simple ul,
+.skin-super-simple li{
+	color: #fff !important;
+}
+/*
+ * The SlideDeck element itself.
+ * 
+ * Customize the width and height to increase or decrease the size of
+ * your SlideDeck. 
+ */
+.skin-super-simple dl.slidedeck {
+	height: 370px;
+    position: relative;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+/*
+ * The SlideDeck slide area.
+ * 
+ * You can specify a height for the slide area, but it is not required, width
+ * will automatically be defined for the slide area and will vary depending on
+ * how many slides you have in your SlideDeck.
+ * 
+ * To add space between a slide and the next slide's spine (slide title bar),
+ * increase the border-right definition. To remove the space, just remove the
+ * border definition.
+ * 
+ * SlideDeck slides are all given a unique class, so you can customize the
+ * appearance of each slide individually by referencing a slide by its
+ * numbered class name. For example:
+ *    .slidedeck dd.slide_1
+ *    .slidedeck dd.slide_2
+ *    .slidedeck dd.slide_3
+ *    etc...
+ */
+.skin-super-simple dl.slidedeck > dd {
+    position: relative;
+	height: 294px;
+	padding: 30px 30px 0;
+    margin: 0;
+	background:#000;    /* Note: you should position the background with pixel measurements in IE7 as it improperly calculates the height of the DD element when containing vertical slides */
+    overflow: hidden;
+}
+
+.skin-super-simple dl.slidedeck > dd img.alignleft{margin:0 10px 10px 0}
+.skin-super-simple dl.slidedeck > dd img.alignright{margin:0 0 10px 10px}
+.skin-super-simple dl.slidedeck > dd img.aligncenter{margin-bottom:10px}
+/*
+ * The SlideDeck spine (slide title bar).
+ * 
+ * SlideDeck spines are rotated, so you will need to swap your directions. To
+ * change the width of the spine, you will need to modify the spine height.
+ * You will also need to make sure that any background imagery used is rotated
+ * horizontally.
+ * 
+ * Like slides, spines are also given a unique class allowing for custom
+ * appearance for each spine. This follows a similar naming convention:
+ *     .slidedeck dt.slide_1
+ *     .slidedeck dt.slide_2
+ *     .slidedeck dt.slide_3
+ *     etc...
+ */
+.skin-super-simple dl.slidedeck > dt {
+    position: relative;
+	cursor: pointer;
+	height: 43px;
+	line-height: 38px;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: "Futura Bold", Arial, Helvetica, sans-serif;
+	letter-spacing: 1px;
+	background:#000;
+	border-top:1px solid #333;
+	color: #505050;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * The hovered state of a SlideDeck spine.
+ */
+.skin-super-simple dl.slidedeck dt.spine:hover {
+	color: #000;
+}
+
+/*
+ * The active state of a SlideDeck spine.
+ */
+.skin-super-simple dl.slidedeck dt.spine.active,
+.skin-super-simple dl.slidedeck dt.spine.active:hover {
+	cursor: default;
+	color: #fff;
+}
+
+/*
+ * The SlideDeck spine index labels.
+ * 
+ * This is to style the numbers (or letters if you have customized it so)
+ * that appear at the bottom of each SlideDeck spine.
+ */
+.skin-super-simple dl.slidedeck dt.spine .index {
+	margin-bottom: 2px;
+    font-size: 24px;
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #505050;
+}
+.skin-super-simple dl.slidedeck dt.spine.active .index { margin-bottom: 0; }
+
+/*
+ * The hovered state of a SlideDeck spine index label.
+ */
+.skin-super-simple dl.slidedeck dt.spine:hover .index { color: #000000; }
+
+/*
+ * The active state of a SlideDeck spine index label.
+ */
+.skin-super-simple dl.slidedeck dt.spine.active .index { color: #ffffff; }
+
+/*
+ * The SlideDeck "active corner".
+ * 
+ * This is the small triangle that appears in the upper left of the active
+ * slide. This can be made any size and positioned differently by modifying
+ * the margin values. By default the left margin is inset to prevent any
+ * gap from appearing as the SlideDeck animates.
+ */
+.skin-super-simple dl.slidedeck .activeCorner {
+	margin-left: -6px;
+	background:none;
+	width: 12px;
+	height: 25px;
+}
+
+/*
+ * The SlideDeck vertical slide style.
+ * 
+ * Veritcal slides will take over the entire content area of a horizontal slide
+ * automatically. Padding will automatically be accommodated for. You can also
+ * eliminate the padding definition to have your vertical slide content line
+ * up flush against the containing slide content area edges.
+ */
+.skin-super-simple dl.slidedeck dd.slide ul.slidesVertical > li {
+    overflow: hidden;
+    padding: 30px 30px 0;
+}
+.skin-super-simple dl.slidedeck dd.slide ul.slidesVertical > li :first-child{
+    padding-top: 0;
+    margin-top: 0;
+}
+
+/*
+ * The SlideDeck vertical slide navigation container.
+ * 
+ * This is the container for the vertical slide navigation. You can position
+ * this anywhere you want within the containing slide's area. If you try to
+ * position it outside of the slide area it will not appear.
+ */
+dl.slidedeck dd.slide ul.verticalSlideNav {
+    top: 10px;
+    right: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*
+ * The SlideDeck vertical slide navigation link containers.
+ * 
+ * This is the container for a navigation link in the vertical slide navigation
+ * element. You can adjust the width and height of this element to accommodate
+ * for a larger vertical navigation button.
+ * 
+ * To increase the space between vertical navigation links, increase the bottom
+ * and/or top padding of this element.
+ */
+dl.slidedeck dd.slide ul.verticalSlideNav li {
+    position: relative;
+    z-index: 2;
+    margin: 0;
+    padding: 0 0 3px;
+	width: 12px;
+	height: 12px;
+	overflow: hidden;
+	line-height: 12px;
+    list-style: none;
+	font-size: 1px; /* Stupid IE */
+}
+
+/*
+ * The SlideDeck vertical slide position indicator.
+ * 
+ * This is the element that slides behind the default navigation link list to
+ * show which is the current vertical slide being viewed. This should be given
+ * similar dimensions to the vertical slide navigation links.
+ */
+dl.slidedeck dd.slide ul.verticalSlideNav li.arrow {
+    position: absolute;
+    display: block;
+    z-index: 1;
+    width: 10px;
+    height: 0;
+    padding-top: 10px;
+    padding-bottom: 0;
+    overflow: hidden;
+    left: 0;
+    border: 1px solid #333;
+    background: #444;
+    background-image: -moz-linear-gradient(top, #000, #444); /* FF3.6 */
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #000),color-stop(1, #444)); /* Saf4+, Chrome */
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+/*
+ * The SlideDeck veritcal slide navigation links.
+ * 
+ * These are the vertical slide navigation links. By default these are a small
+ * square that uses a sprite background image replacement method to hide the
+ * default text that is placed in the link ("Nav 1", "Nav 2", "Nav 3").
+ * 
+ * To change the appearance of the navigation elements, you will need to use a
+ * background image replacement as the text for the links cannot be changed.
+ * Each vertical slide navigation link is given a unique class so they can be
+ * styled individually. For example:
+ *     dl.slidedeck dd.slide ul.verticalSlideNav li a.nav_1
+ *     dl.slidedeck dd.slide ul.verticalSlideNav li a.nav_2
+ *     dl.slidedeck dd.slide ul.verticalSlideNav li a.nav_3
+ *     etc....
+ */
+dl.slidedeck dd.slide ul.verticalSlideNav li a {
+    position: relative;
+    display: block;
+    width: 10px;
+    height: 0;
+    overflow: hidden;
+    padding-top: 10px;
+    background: #fff;
+    outline: none;
+	text-decoration: none;
+    border: 1px solid #ccc;
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+    -webkit-opacity: 0.5;
+    -khtml-opacity: 0.5;
+    -ms-filter: "Alpha(opacity=50)";
+    filter: Alpha(opacity=50);
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+/*
+ * The SlideDeck vertical slide navigation link hover state.
+ */
+dl.slidedeck dd.slide ul.verticalSlideNav li a:hover {
+    opacity: 0.75;
+    -moz-opacity: 0.75;
+    -webkit-opacity: 0.75;
+    -khtml-opacity: 0.75;
+    -ms-filter: "Alpha(opacity=75)";
+    filter: Alpha(opacity=75); 
+}
+
+/*
+ * Dark Navigation Skin specialty "The Navigation"
+ */
+.skin-super-simple .slidedeckFooter{
+	background:#333;
+	border-top:1px solid #3d3d3d;
+	overflow:hidden;
+	padding:15px;
+	position:relative;
+}
+.skin-super-simple .slidedeckFooter .navigation{
+	float:left;
+	margin-right:20px;
+	overflow: visible;
+}
+.skin-super-simple .slideckFooter .slideTitle{	
+	float:left;
+	height: 15px;
+	line-height: 15px;
+	font-size: 14px;
+}
+.skin-super-simple .slidedeckFooter .slideTitle div.index{display:none !important}
+.skin-super-simple .slidedeckFooter .navigation a,
+.skin-super-simple .slidedeckFooter .navigation a:link,
+.skin-super-simple .slidedeckFooter .navigation a:visited{
+	background:#444;
+	background:-moz-linear-gradient(top, #848484, #444);
+	background:-webkit-gradient(linear, left top, left bottom, from(#848484), to(#444));
+	color:#ccc !important;
+	outline: 0;
+	position: relative;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	display:block;
+	float:left;
+	height:15px;
+	line-height:10px;
+	padding:5px 10px;
+	font-weight:bold;
+	text-decoration:none;
+	text-align:center;
+	width:20px;
+	box-shadow: 1px 1px 2px #000;
+	-webkit-box-shadow: 1px 1px 2px #000;
+	-moz-box-shadow: 1px 1px 2px #000;
+}
+.skin-super-simple .slidedeckFooter .navigation a:hover{
+	color:#111;
+	box-shadow: 1px 1px 2px #222;
+	-webkit-box-shadow: 1px 1px 2px #222;
+	-moz-box-box-shadow: 1px 1px 2px #222;
+}
+.skin-super-simple .slidedeckFooter .navigation a:active{
+	top: 1px;
+}
+.skin-super-simple .slidedeckFooter a.prevSlide{
+	-moz-border-radius-bottomleft:15px;
+	-moz-border-radius-topleft:15px;
+	border-bottom-left-radius:15px;
+	border-top-left-radius:15px
+}
+.skin-super-simple .slidedeckFooter a.nextSlide{
+	margin-left:1px;
+	-moz-border-radius-topright:15px;
+	-moz-border-radius-bottomright:15px;	
+	border-top-right-radius:15px;
+	border-bottom-right-radius:15px;
+}
+.skin-super-simple .slidedeckFooter a.disabled, 
+.skin-super-simple .slidedeckFooter a:link.disabled, 
+.skin-super-simple .slidedeckFooter a:visited.disabled{
+	background: #3b3b3b;
+	color: #222 !important;
+	cursor: default;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-box-shadow: none;
+}

@@ -1,0 +1,45 @@
+###################
+## READ ME FIRST ##
+###################
+
+SlideDeck Skin Classic Template
+
+Packaged for:	SlideDeck
+Product URL:	http://developers.slidedeck.com
+Created by:	digital-telepathy
+
+FILE CONTENTS:
+(1)html file
+	- index.html
+(13)images
+	- images/...
+(3)stylesheets
+	- CHANGEME.skin.css
+	- CHANGEME.skin.ie.css
+	- template.format.css
+
+Dear Designers & Developers,
+
+We've created this Classic Skin Template for easy
+creation of SlideDecks. We've included a Photoshop
+document that you can easily modify to create your
+own custom skins. The HTML document is heavily
+commented so our developer friends can understand
+how to work with SlideDeck. You'll want to navigate
+through the package and change areas where "CHANGEME"
+is displayed. We want you to come up with awesome
+custom names for your own skin. It's your baby, you
+name it! "CHANGEME" is listed in file names & throughout
+the code. If you've purchased a PRO version of the
+SlideDeck library, you can replace the LITE library
+with your version of PRO, and correct the appropriate
+areas within the code.
+
+Happy Designing & Coding!
+Love,
+SlideDeck Staff
+
+===
+Check out our support section if you need help:
+http://developers.slidedeck.com/slidedeck-web-slider-support/
+===

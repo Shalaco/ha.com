@@ -1,0 +1,44 @@
+<result>
+	<intro_sub_1a>The Hearing Test was created by audiology experts to help you determine whether you have hearing impairment. </intro_sub_1a>
+	<intro_title_1b>How the test works</intro_title_1b>
+	<intro_sub_1b>The Hearing Test examines how well you can detect words in background noise.&#10;&#10;Your task is to select the word you heard from the options that are shown to you..&#10;&#10;The test consists of [count] test items per ear, strongly improves the accuracy of the results. </intro_sub_1b>
+	<intro_sub_2a>Find yourself a quiet environment.</intro_sub_2a>
+	<intro_sub_2b>Plug in your headphones and adjust the volume to a comfortable level. </intro_sub_2b>
+	<intro_sub_2c>Your right ear will be tested first</intro_sub_2c>
+	<intro_sub_2d>You will hear nonsense words like “assa” or “atta” embedded in noise. Please know that the background noise you will hear is part of the test.</intro_sub_2d>
+	<intro_sub_3a>A short beep announces the next test word.</intro_sub_3a>
+	<intro_sub_3b>In case you are not sure what you heard, click “Not understood”.</intro_sub_3b>
+	<intro_sub_3c>To repeat the word, click “Repeat”.</intro_sub_3c>
+	<intro_sub_3d>The next word will play automatically.</intro_sub_3d>
+	<intro_sub_3e>When you have completed the test for both ears, your results and recommendation will be displayed.</intro_sub_3e>
+
+	<final_btn>Contact Us</final_btn>
+	
+	<wrong>Result is wrong.</wrong>
+	<correct_results>Correct result</correct_results>	
+	<your_result>Your test result</your_result>
+	<normal_hearing>Normal hearing</normal_hearing>
+	<srt>Perception treshold</srt>
+	<result_ok>There is no indication of hearing loss.</result_ok>
+	<result_bad_both>The screening indicates a possible hearing loss. We recommend that you visit a Hearing Care Professional for a comprehensive hearing check.</result_bad_both>
+	<result_bad_right>The screening indicates a possible hearing loss for your right ear. We recommend that you visit a Hearing Care Professional for a comprehensive hearing check.</result_bad_right>
+	<result_bad_left>The screening indicates a possible hearing loss for your left ear. We recommend that you visit a Hearing Care Professional for a comprehensive hearing check.</result_bad_left>
+	<disclaimer>The results of the hearing test are not to be utilized as an official outcome for assessing levels of hearing loss. True hearing loss assessments can only be determined by a licensed hearing healthcare provider.</disclaimer>
+	<left_ear>Left ear</left_ear>
+	<right_ear>Right ear</right_ear>
+	
+	<hearing_test>Hearing Test</hearing_test>
+	<online_hearing_test>Online Hearing Test</online_hearing_test>
+	<next>Next</next>
+	<back>Back</back>
+	<start_test>Start test</start_test>
+	<more_instructions>More instructions</more_instructions>
+	<repeat>Repeat</repeat>
+	<not_understood>Not understood</not_understood>
+	<test_left_ear>Your left ear is tested</test_left_ear>
+	<test_right_ear>Your right ear is tested</test_right_ear>
+	<test_your_left_ear>Your left ear is going to be tested next.</test_your_left_ear>
+	<continue_test>Continue test</continue_test>
+	
+	<sound_words>acka, adda, affa, ahha, alla, amma, asha, assa, atta</sound_words>
+</result>

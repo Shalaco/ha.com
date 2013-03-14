@@ -1,0 +1,69 @@
+*** Nivo Slider WordPress Plugin Changelog ***
+
+2011.11.29 - version 1.4
+ * [Changed] Upgraded jQuery Nivo Slider script to v2.7
+ * [Changed] File uploader is now Plupload
+ * [Changed] File missing error now shows path instead of URL
+ * [Changed] Pro version no longer exists
+ * [Fixed] Warning when no themes exist
+ * [Fixed] Automatic upgrading
+
+2011.10.20 - version 1.3
+ * [New] Added automatic upgrading to Single License Version of plugin
+ * [Changed] Removed TimThumb and now use internal WordPress image resizing
+ * [Changed] Removed "Disable Automatic Cropping" setting
+ * [Changed] Include nivo-slider.css in header to stop flashing on load
+
+2011.09.22 - version 1.2.1
+ * [Fixed] Bug that caused sliders called in templates not to work
+
+2011.09.21 - version 1.2
+ * [Changed] Only load styles/scripts on pages that have a slider shortcode
+ * [Changed] Exclude sliders from search results
+ * [Changed] Attempt to make TimThumb cache writeable if it is not already
+
+2011.08.23 - version 1.1
+ * [Fixed] Bug where "undefined" errors would appear until you re-saved the slider
+ * [Fixed] Bug where folder structure was wrong for pro version
+ 
+2011.08.18 - version 1.0
+ * [New] Added automatic update functionality to the Pro Version
+ * [New] Added "Nivo Slider Pro" meta box to Single License Version
+ * [Changed] Split plugin into "Single License Version" and "Pro Version"
+
+2011.08.08 - version 0.9
+ * [New] Added Thumbnail Navigation option
+ * [New] You can now use the "slug" attribute in the shortcode to define a slider
+ * [New] Added Multisite support for TimThumb URL's
+ * [New] Ability to use a random start slide
+ * [Changed] Better error reporting when uploading images
+ * [Changed] Upgraded TimThumb to v2.4
+ * [Fixed] Bug where single image wouldn't show once slider had loaded
+ * [Fixed] Bug where images would attempt to upload even if the destination folder was read only
+
+2011.07.06 - version 0.8
+ * [New] Added ability to choose a Slider Theme (including 3 default themes)
+ * [New] Captions can now contain certain HTML
+ * [New] You can now see the images that will be in Category and Sticky sliders in the backend
+ * [Changed] Upgraded to Nivo Slider v2.6
+ * [Fixed] Added proper support for il8n
+ * [Fixed] Bug where edit image icon was missing
+ 
+2011.06.21 - version 0.7
+ * [New] Added support for links and captions on "Manual" sliders
+ * [New] Added option to disable image cropping (i.e. disable TimThumb)
+ * [New] Added il8n support
+ * [Changed] When adding a new slider values have defaults
+ * [Fixed] Warning messages that appeared using WP_DEBUG
+
+2011.06.10 - version 0.6
+ * [New] Added slider shortcode dropdown to visual editor
+ * [New] Added links and automatic captions to Category and Sticky sliders
+ * [New] Added slideInRight and slideInLeft transitions
+ * [Changed] Increased timthumb file dimension and size limits
+ * [Changed] Upload Images box is now always visible with a message for Category and Sticky sliders
+ * [Fixed] Sliders no longer appear at the top of posts rather than the shortcode location
+ * [Fixed] Update notifications on the Slider add/edit pages
+
+2011.06.02 - version 0.5
+ * Initial release

@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Noisy</title>
+
+        <!-- Include jQuery first. -->
+		<script type="text/javascript" src="../../jquery-1.7.1.min.js"></script>
+		
+		<!-- Include SlideDeck skin - Noisy -->
+		<link rel="stylesheet" type="text/css" href="slidedeck.skin.noisy.css" media="screen,handheld" />
+		
+        <!-- Include the SlideDeck jQuery script. -->
+		<script type="text/javascript" src="../../slidedeck.jquery.js"></script>
+        
+        <style type="text/css">
+            #slidedeck_frame {
+                width: 901px;
+                height: 370px;
+				margin: 100px auto 0;
+            }
+        </style>
+	</head>
+	<body>
+
+		<div id="slidedeck_frame" class="skin-noisy">
+            <dl class="slidedeck">
+                <dt>Slide One</dt>
+                <dd>Slide Content</dd>
+                <dt>Slide Two</dt>
+                <dd>Slide Content</dd>
+                <dt>Slide Three</dt>
+                <dd>Slide Content</dd>
+                <dt>Slide Four</dt>
+                <dd>Slide Content</dd>
+                <dt>Slide Five</dt>
+                <dd>Slide Content</dd>
+            </dl>
+		</div>
+        
+		<script type="text/javascript">
+            /* Initiate the SlideDeck */
+    		$('.skin-noisy dl.slidedeck').slidedeck({ transition: 'linear', speed: 250 });
+		</script>
+	    <!-- Help support SlideDeck! Place this noscript tag on your page when you deploy a SlideDeck to provide a link back! -->
+		<noscript>
+		     <p>Powered By <a href="http://www.slidedeck.com" title="Visit SlideDeck.com">SlideDeck</a></p>
+        </noscript>
+	</body>
+</html>

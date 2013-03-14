@@ -1,0 +1,392 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SSQuiz\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-26 01:00+0600\n"
+"PO-Revision-Date: 2012-06-26 01:06+0600\n"
+"Last-Translator: Vadim Storozhev <ssvadim@mail.ru>\n"
+"Language-Team: SSVadim <ssvadim@mail.ru>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin-side.php:12
+#: ../ssquiz.php:28
+msgid "Quiz's Users"
+msgstr "Пользователи"
+
+#: ../admin-side.php:15
+msgid "Clear this list"
+msgstr "Очистить список"
+
+#: ../admin-side.php:20
+#: ../client-side.php:56
+msgid "Name"
+msgstr "Имя"
+
+#: ../admin-side.php:21
+#: ../client-side.php:61
+msgid "E-Mail"
+msgstr "Емэйл"
+
+#: ../admin-side.php:22
+#: ../admin-side.php:177
+msgid "Quiz"
+msgstr "Тест"
+
+#: ../admin-side.php:23
+msgid "Answered"
+msgstr "Отвечено"
+
+#: ../admin-side.php:24
+msgid "Correct"
+msgstr "Правильно"
+
+#: ../admin-side.php:25
+msgid "Time"
+msgstr "Время"
+
+#: ../admin-side.php:67
+msgid "ERROR:You should write answer"
+msgstr "Ошибка: Нужно написать ответ"
+
+#: ../admin-side.php:71
+msgid "ERROR:You should write question"
+msgstr "Ошибка: Нужно написать вопрос"
+
+#: ../admin-side.php:75
+msgid "No Quiz selected"
+msgstr "Не выбран тест"
+
+#: ../admin-side.php:84
+msgid "Error while replacing"
+msgstr "Ошибка при замене"
+
+#: ../admin-side.php:108
+msgid "ERROR:You should write title"
+msgstr "Ошибка: нужно написать заголовок"
+
+#: ../admin-side.php:112
+msgid "ERROR:You should write description"
+msgstr "Ошибка: нужно написать описание"
+
+#: ../admin-side.php:122
+msgid "SSQuiz Manager"
+msgstr "Менеджер тестов"
+
+#: ../admin-side.php:122
+#: ../admin-side.php:135
+#: ../ssquiz.php:63
+msgid "Add Quiz"
+msgstr "Добавить тест"
+
+#: ../admin-side.php:127
+msgid "New Quiz's title"
+msgstr "Название"
+
+#: ../admin-side.php:131
+msgid "New Quiz's description"
+msgstr "Описание"
+
+#: ../admin-side.php:141
+msgid "View Quiz"
+msgstr "Открыть тест"
+
+#: ../admin-side.php:143
+msgid "All"
+msgstr "Все"
+
+#: ../admin-side.php:178
+msgid "Number"
+msgstr "Номер"
+
+#: ../admin-side.php:179
+#: ../admin-side.php:428
+#: ../client-side.php:187
+#: ../client-side.php:286
+#: ../client-side.php:373
+msgid "Question"
+msgstr "Вопрос"
+
+#: ../admin-side.php:180
+msgid "Correct Answer"
+msgstr "Правильный ответ"
+
+#: ../admin-side.php:181
+msgid "Answers"
+msgstr "Ответы"
+
+#: ../admin-side.php:204
+#: ../admin-side.php:206
+msgid "Total questions"
+msgstr "Всего вопросов"
+
+#: ../admin-side.php:204
+#: ../admin-side.php:206
+#: ../admin-side.php:236
+msgid "delete"
+msgstr "удалить"
+
+#: ../admin-side.php:204
+#: ../admin-side.php:235
+#: ../ssquiz.php:61
+msgid "edit"
+msgstr "редактировать"
+
+#: ../admin-side.php:204
+#: ../admin-side.php:206
+#: ../admin-side.php:517
+#: ../admin-side.php:532
+#: ../ssquiz.php:59
+msgid "add question"
+msgstr "добавить вопрос"
+
+#: ../admin-side.php:283
+#: ../ssquiz.php:29
+msgid "Quiz Templates"
+msgstr "Шаблоны теста"
+
+#: ../admin-side.php:285
+msgid "Welcome Screen"
+msgstr "Начальный экран"
+
+#: ../admin-side.php:288
+#: ../admin-side.php:301
+#: ../admin-side.php:322
+#: ../admin-side.php:348
+msgid "Title of the quiz"
+msgstr "Название теста"
+
+#: ../admin-side.php:289
+#: ../admin-side.php:302
+#: ../admin-side.php:323
+#: ../admin-side.php:349
+msgid "Description of the quiz"
+msgstr "Описание теста"
+
+#: ../admin-side.php:290
+msgid "Total number of questions"
+msgstr "Всего вопросов"
+
+#: ../admin-side.php:293
+#: ../admin-side.php:308
+#: ../admin-side.php:355
+msgid "Submit"
+msgstr "Принять"
+
+#: ../admin-side.php:298
+msgid "Result Screen"
+msgstr "Экран результатов"
+
+#: ../admin-side.php:303
+#: ../admin-side.php:324
+#: ../admin-side.php:350
+msgid "Number of answered"
+msgstr "Число отвеченных вопросов"
+
+#: ../admin-side.php:304
+#: ../admin-side.php:325
+#: ../admin-side.php:351
+msgid "Number of correct answers"
+msgstr "Число правильных ответов"
+
+#: ../admin-side.php:305
+#: ../admin-side.php:326
+#: ../admin-side.php:352
+msgid "Percent of correct answered over total questions"
+msgstr "Процент правильных ответов"
+
+#: ../admin-side.php:313
+msgid "Email Template to user"
+msgstr "Шаблон письма пользователю"
+
+#: ../admin-side.php:314
+#: ../admin-side.php:336
+msgid "Subject"
+msgstr "Тема"
+
+#: ../admin-side.php:319
+msgid "User will receive email?"
+msgstr "Пользователь получит письмо?"
+
+#: ../admin-side.php:335
+msgid "Teacher's Template"
+msgstr "Шаблон письма учителю"
+
+#: ../admin-side.php:341
+msgid "Teacher's email"
+msgstr "Емэйл учителя"
+
+#: ../admin-side.php:343
+msgid "Teacher will receive email?"
+msgstr "Учитель получит письмо?"
+
+#: ../admin-side.php:346
+msgid "User's name"
+msgstr "Имя пользователя"
+
+#: ../admin-side.php:347
+msgid "User's email"
+msgstr "Емэйл пользователя"
+
+#: ../admin-side.php:432
+#: ../admin-side.php:521
+msgid "Insert Media"
+msgstr "Вставить мультимедиа"
+
+#: ../admin-side.php:445
+#: ../admin-side.php:524
+msgid "Answer is"
+msgstr "Ответ"
+
+#: ../admin-side.php:447
+#: ../admin-side.php:527
+msgid "correct"
+msgstr "правильный"
+
+#: ../admin-side.php:451
+#: ../ssquiz.php:46
+msgid "Add answer"
+msgstr "Добавить ответ"
+
+#: ../admin-side.php:461
+msgid "Save"
+msgstr "Сохранить"
+
+#: ../admin-side.php:495
+msgid "Quiz's title"
+msgstr "Заголовок теста"
+
+#: ../admin-side.php:499
+msgid "Quiz's description"
+msgstr "Описание теста"
+
+#: ../admin-side.php:541
+msgid "If you have questions, suggestions or want to know about my upcoming projects, visit"
+msgstr "Если у Вас есть вопросы, пожелания или хотите знать о других моих проектах, посетите"
+
+#: ../client-side.php:10
+msgid "Quiz is not selected! Please, read readme.txt"
+msgstr "Тест не выбран, смотрите readme.txt"
+
+#: ../client-side.php:45
+msgid "Time left"
+msgstr "Осталось времени"
+
+#: ../client-side.php:68
+msgid "Start"
+msgstr "Начать"
+
+#: ../client-side.php:70
+msgid "Exit"
+msgstr "Выход"
+
+#: ../client-side.php:191
+msgid "Correct answer"
+msgstr "Правильный ответ"
+
+#: ../client-side.php:194
+msgid "Your answer"
+msgstr "Ваш ответ"
+
+#: ../client-side.php:196
+msgid "You didn't answer to this question."
+msgstr "Вы не ответили на вопрос"
+
+#: ../client-side.php:199
+msgid "You were right!"
+msgstr "Вы правы!"
+
+#: ../client-side.php:219
+msgid "Back"
+msgstr "Назад"
+
+#: ../client-side.php:275
+#: ../client-side.php:363
+msgid "There is no tests in quiz"
+msgstr "Нет вопросов в этом тесте"
+
+#: ../client-side.php:313
+#: ../client-side.php:368
+msgid "Finish"
+msgstr "Завершить"
+
+#: ../client-side.php:337
+msgid "Next"
+msgstr "Дальше"
+
+#: ../ssquiz.php:47
+msgid "You must write at least one answer!"
+msgstr "Вы должны написать хотя бы один ответ"
+
+#: ../ssquiz.php:48
+msgid "You must choose correct answer!"
+msgstr "Вы должны выбрать правильный ответ"
+
+#: ../ssquiz.php:49
+msgid "Question too short!"
+msgstr "Вопрос слишком короток"
+
+#: ../ssquiz.php:50
+msgid "You must write title!"
+msgstr "Вы должны написать название"
+
+#: ../ssquiz.php:51
+msgid "You must write description!"
+msgstr "Вы должны написать описание"
+
+#: ../ssquiz.php:52
+msgid "Error"
+msgstr "Ошибка"
+
+#: ../ssquiz.php:53
+msgid "Saved"
+msgstr "Сохранено"
+
+#: ../ssquiz.php:54
+msgid "Please fill the forms"
+msgstr "Пожалуйста заполните форму"
+
+#: ../ssquiz.php:55
+msgid "Please input a correct email"
+msgstr "Пожалуйста введите правильный емэйл"
+
+#: ../ssquiz.php:56
+msgid "Select Quiz"
+msgstr "Выберите тест"
+
+#: ../ssquiz.php:57
+msgid "Do you really want to delete quiz and all its questions?"
+msgstr "Вы дейстительно хотите удалить тест со всеми вопросами?"
+
+#: ../ssquiz.php:58
+msgid "Do you really want to delete all users from SSQuiz's database"
+msgstr "Вы действительно хотите удалить историю использования плагина?"
+
+#: ../ssquiz.php:60
+msgid "cancel"
+msgstr "отмена"
+
+#: ../ssquiz.php:62
+msgid "loading"
+msgstr "загрузка"
+
+#: ../ssquiz.php:64
+msgid "Another answer is"
+msgstr "Еще ответ"
+
+#, fuzzy
+#~ msgid "Quiz Users"
+#~ msgstr "Пользователи"
+
+#~ msgid "Add Question"
+#~ msgstr "Добавить вопрос"
+
+#~ msgid "Add question"
+#~ msgstr "добавить вопрос"

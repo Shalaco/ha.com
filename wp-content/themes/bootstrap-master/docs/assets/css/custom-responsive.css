@@ -1,0 +1,57 @@
+ /*iPad portrait / iPhone Landscape and portrait & Landscape & Desktop*/
+	@media screen and (max-width: 979px)  {
+	body {
+	  background: url('../../img/bg-wrapper-14x1917.png') repeat-x scroll  0 9px;
+	}
+}
+@media (max-width: 979px) and (min-width: 768px) {
+    .row-fluid.flush .span4 {
+    width: 33.33%;
+    margin-left: 0px!important;
+    padding-top:10px;
+  }
+}
+		/*iPhone landscape and Desktop*/
+	@media screen and (max-width: 767px)  {
+	  	body {
+	  background: url('../../../img/bg-wrapper-14x1917.png') repeat-x scroll  0 151px;
+	}
+	.news .span12 {
+
+	}
+		.news .span9 {
+    width: 74.46808510638297%!important;
+    *width: 74.41489361702126%;
+    float:left;
+    margin-left:20px!important;
+  }
+	}
+	
+				/* iPhone Portrait  cut because it randomly started messing things up*/
+	@media only screen and (max-width: 320px) and (orientation:portrait) {
+	  	img.logo {
+	  max-width:100%;
+	    }
+	  	body { 
+	  background: url('../../../img/bg-wrapper-14x1917.png') repeat-x scroll  0 36px!important;
+	}
+	}
+			@media (min-width: 1200px) {
+	  	header {
+        		margin: 30px auto auto 0px;
+	}
+	  	body {
+	  background: url('../../../img/bg-wrapper-14x1917.png') repeat-x scroll  0 -1px;
+	}
+  .row-fluid.flush .span4 {
+    width: 33.33%;
+    margin-left: 0px!important;
+    padding-top:20px;
+  }
+	}
+		@media (min-width: 980px) {
+	.flush .span4 {
+	  margin-left:0px;
+	  width:33.3333%;
+	}
+}

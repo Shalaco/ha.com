@@ -1,0 +1,66 @@
+/*
+Theme Name: Bootstrap Master
+Version: 0.001
+
+/* =Notes
+--------------------------------------------------------------
+
+---------- Examples
+
+* 
+
+
+---------- Vertical spacing
+
+
+/* =Reset
+-------------------------------------------------------------- */
+.nivo-html-caption {
+display: inline!important;
+}
+
+body {
+color:#000!important;
+}
+
+#imgButton {
+	cursor:pointer;
+}
+
+
+small {
+  font-size: 11px;
+}
+.footnote {
+font-size:11px;
+line-height:14px
+}
+
+.factlet .btn  {
+    cursor: default;
+}
+
+.main-content {
+background-color:#FFF!important;
+}
+
+.large-icon-download {
+text-transform:capitalize;
+}
+
+.cta {
+text-align:right;
+}
+
+ol li {
+padding-bottom:10px;
+} 
+
+ol ul {
+padding-top:10px;
+}
+
+.main-content li {
+
+padding-bottom:4px;
+}

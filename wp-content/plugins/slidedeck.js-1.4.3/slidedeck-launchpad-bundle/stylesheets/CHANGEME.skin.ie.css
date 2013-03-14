@@ -1,0 +1,20 @@
+.skin-CHANGEME dl.slidedeck ul.verticalSlideNav {
+    left: 70px;
+    top: 7px;
+    margin-left: -65px;
+    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+}
+.skin-CHANGEME dl.slidedeck dt.active ul.verticalSlideNav { top: 6px; }
+.skin-CHANGEME dl.slidedeck dt.spine .index,
+.skin-CHANGEME dl.slidedeck ul.verticalSlideNav li a {
+    background-color: #f6f6f6;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Chroma(color='#f6f6f6')";
+    filter: progid:DXImageTransform.Microsoft.Chroma(color='#f6f6f6');
+}
+.skin-CHANGEME dl.slidedeck dt.spine.active .index,
+.skin-CHANGEME dl.slidedeck dt.spine.active ul.verticalSlideNav li a {
+    background-color: #181818;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Chroma(color='#181818')";
+    filter: progid:DXImageTransform.Microsoft.Chroma(color='#181818');
+}

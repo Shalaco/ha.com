@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Stacked Nav</title>
+        <link rel="stylesheet" type="text/css" href="skin.css" media="screen,handheld" />
+
+		<!-- Include jQuery first. -->
+		<script type="text/javascript" src="../../jquery-1.7.1.min.js"></script>
+
+        <!-- Include the below script, Copyright 2010, Brandon Aaron (http://brandonaaron.net/) for scrollwheel support. -->
+        <script type="text/javascript" src="../../jquery-mousewheel/jquery.mousewheel.min.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="slidedeck.skin.css" media="screen,handheld" />
+		
+        <!-- Include the SlideDeck jQuery script. -->
+		<script type="text/javascript" src="../../slidedeck.jquery.js"></script>
+		
+		<!-- Custom Skin script -->
+		<script type="text/javascript" src="slidedeck.skin.js"></script>
+
+		<style type="text/css">
+			body {
+				position: relative;
+				width: 100%;
+				margin: 0;
+				padding: 100px 0 0 0;
+				background: #FFFFFF;				
+			}
+            .skin-stacked-nav {
+            	width:800px;
+                margin: 0 auto;
+            }
+			.skin-stacked-nav dl.slidedeck {
+				height:300px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="slidedeck_frame" class="skin-stacked-nav">
+			<dl class="slidedeck">
+				<dd>
+					<dl class="slidesVertical">
+			            <dt>Vertical Slide 1 Title</dt>
+						<dd><p>Vertical Slide 1 Content</p></dd>
+			            <dt>Vertical Slide 2 Title</dt>
+						<dd><p>Vertical Slide 2 Content</p></dd>
+						<dt>Vertical Slide 3 Title That is Long</dt>
+						<dd><p>Vertical Slide 3 Content</p></dd>
+						<dt>Vertical Slide 4 Title</dt>
+						<dd><p>Vertical Slide 4 Content</p></dd>
+						<dt>Vertical Slide 5 Title</dt>
+						<dd><p>Vertical Slide 5 Content</p></dd>
+						<dt>Vertical Slide 6 Title</dt>
+						<dd><p>Vertical Slide 6 Content</p></dd>
+			        </dl>
+				</dd>
+			</dl>
+		</div>
+		<script type="text/javascript">
+		   $('.skin-stacked-nav dl.slidedeck').slidedeck().vertical();      
+		</script>
+		<noscript><p>Powered By <a href="http://www.slidedeck.com" title="Visit SlideDeck.com">SlideDeck</a></p></noscript>
+		
+	</body>
+</html>
