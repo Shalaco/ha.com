@@ -1,0 +1,57 @@
+Schedule Questions:
+When Does the email get developed, who develops it?
+The resorting will have to be in the email template structure
+
+
+Admin Page:
+
+Sorting
+How do we get by category and then reorder by 
+
+
+
+Innumerating use case 
+1. Initial Population of main content
+1b. Initial population of sidebar 
+1c. Addition and removal of items from sidebar when articles are added or removed
+2. Resorting articles already populated
+3. Adding articles from sidebar
+4. Removing articles from sidebar 
+5. Editing Content 
+
+
+1. Initial population of content and sidebar
+Articles in Sidebar:
+Filtered by tag property
+
+Articles in Main Content Block:
+Filtered by Newsletter Tag
+Sorted by Category Then Subcategory
+Ordered by additional property [Potentially Order]
+
+[Need to think threw tag naming convention, if added on first load, what happens on second load
+Think through when the tag is initially added, when it is removed and how it is generated]
+
+2. Resorting articles already populated
+Articles cannot be moved out of their parent Category
+Ordered by Sort Order then Catgory name then alphabetically by title
+initial order for all articles = 0 
+Once articles are resorted (or added) page orders updated across all articles
+
+ 
+
+3. Adding articles from sidebar
+News and notes always limited to 3. Empty tables if <3
+Adding articles over articles pushes
+Need to dry run R&D drag and drop[Asses limitations and obstacles]
+Articles are grouped by parent category and can only be added to parent category in main content 
+
+4. Removing Articles
+Removes Newsletter Tag. Article added to sidenav[adds sidenav filter properties]
+
+5. Editing Content
+Links to edit this post
+
+
+
+

@@ -24,7 +24,7 @@ get_header(); ?>
     </div>
    
 	</div>	<!--/.span12-->
-	 <?php echo do_shortcode(types_render_field("types-main-cntnt", array('raw' => 'true', 'output' => 'html'))); ?>
+	 <?php echo do_shortcode(types_render_field("types-main-cntnts", array('raw' => 'true', 'output' => 'html'))); ?>
 
       <?php endwhile; ?>
 
